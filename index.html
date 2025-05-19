@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reliable NSW Transport</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <img src="logo.png" alt="Selrose Logistics Australia Logo" />
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section class="hero" id="home">
+      <h1>
+        NSW-Based Transport. Powered by Subcontractors. Driven by Reliability.
+      </h1>
+      <button
+        onclick="location.href='mailto:quotes@selrose.com?subject=Request for Quote'"
+      >
+        Request a Quote
+      </button>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        Selrose Logistics Australia delivers scalable, cost-effective transport
+        services through a trusted network of subcontractors. Our flexible model
+        ensures reliable logistics tailored to your needs.
+      </p>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <ul>
+        <li>General Freight</li>
+        <li>Metro & Regional Delivery</li>
+        <li>Overflow Subcontracting</li>
+        <li>
+          Proof of Delivery (POD) & Real-Time Updates –
+          <a href="mailto:pod@selrose.com">Email Requests</a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="why-us">
+      <h2>Why Choose Us</h2>
+      <ul>
+        <li>Fully insured</li>
+        <li>Licensed drivers</li>
+        <li>Transparent communication</li>
+        <li>Competitive rates</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form
+        action="mailto:contact@selrose.com"
+        method="POST"
+        enctype="text/plain"
+      >
+        <input type="text" name="Name" placeholder="Name" required />
+        <input type="email" name="Email" placeholder="Email" required />
+        <input type="tel" name="Phone" placeholder="Phone" required />
+        <textarea
+          name="Job Description"
+          placeholder="Job Description"
+          rows="4"
+          required
+        ></textarea>
+        <button type="submit">Submit</button>
+        <p>We’ll get back to you within 2 hours.</p>
+      </form>
+    </section>
+
+    <footer>
+      <p>ABN: 123 456 789 | ACN: 987 654 321 | Email: info@selrose.com</p>
+      <p>LinkedIn: Coming soon | <a href="#">Terms & Conditions</a></p>
+    </footer>
+  </body>
+</html>
