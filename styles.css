@@ -35,7 +35,7 @@ nav {
 }
 
 nav img {
-    height: 35px;
+    height: 40px;
 }
 
 .nav-links {
@@ -170,7 +170,7 @@ section ul li::before {
 /* Links */
 section a {
     color: var(--green);
-    text-decoration: underline;
+    text-decoration: none;
     transition: color 0.3s ease;
 }
 
@@ -248,9 +248,7 @@ footer a {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        /* Spread out evenly */
         width: 100%;
-        margin-top: 1rem;
     }
 
     nav a {
