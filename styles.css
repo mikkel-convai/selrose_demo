@@ -1,9 +1,9 @@
 /* Root variables for consistent theming */
 :root {
     --black: #000000;
-    --green: #2e8b57;
+    --green: #00891d;
     /* SeaGreen - tweak if a specific green is needed */
-    --silver: #c0c0c0;
+    --silver: #b4b5b8;
     --white: #ffffff;
     --max-width: 1200px;
     --font-stack: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -25,14 +25,17 @@ body {
 
 /* Header / Navbar */
 header {
-    background-color: var(--black);
-    color: var(--white);
-    padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
+    padding: 1rem 2rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--white);
+    position: fixed;
     width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
 }
 
 header img {
@@ -53,6 +56,20 @@ nav a:hover {
 
 /* Hero Section */
 .hero {
+    background: url('hero.jpg') no-repeat center center/cover;
+    color: var(--silver);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* .hero {
     height: 100vh;
     background: url('hero.jpg') no-repeat center center/cover;
     color: var(--silver);
@@ -62,7 +79,7 @@ nav a:hover {
     align-items: center;
     text-align: center;
     padding: 2rem;
-}
+} */
 
 .hero h1 {
     font-size: 2rem;
